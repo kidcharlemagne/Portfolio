@@ -19,7 +19,7 @@ router.get("/", function(req, res) {
 /* Use the defined Route for index */
 app.use("/", router);
 
-/* Incoming request does not match the route */
+/* Incoming request does not match the Route */
 app.use("*", function(req, res) {
     res.sendFile(path + "404.html");
 });

@@ -10,7 +10,7 @@ randyliang.com
 ===========
 Description
 ===========
-`This <https://www.randyliang.com/>`_ is my personal website developed in Node.js using Express. 
+`This <https://www.randyliang.com/>`_ is my personal website. 
 
 Project Structure
 -----------------
@@ -37,3 +37,4 @@ Ongoing Tasks/Thoughts
 - Add Javascript animation
 - If Git auto-404s, do I even need one?
 - Am I going about views wrong?
+- Going to just use the server for testing
