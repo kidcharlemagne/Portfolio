@@ -13,17 +13,17 @@ Description
 `This <https://www.randyliang.com/>`_ is my personal website developed developed in Node.js using Express. 
 
 Directory Tree::
-
 	.
 	├── CNAME
+	├── index.html
 	├── package.json
 	├── README.rst
 	├── resume.pdf
 	├── server.js
 	└── views
 	    ├── 404.html
-	    ├── about.html
-	    └── index.html
+	    └── about.html
+
 
 =====
 TODO:
