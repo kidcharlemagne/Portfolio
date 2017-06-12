@@ -10,8 +10,10 @@ randyliang.com
 ===========
 Description
 ===========
-`This <https://www.randyliang.com/>`_ is my personal website developed developed in Node.js using Express. 
+`This <https://www.randyliang.com/>`_ is my personal website developed in Node.js using Express. 
 
+Project Structure
+-----------------
 Directory Tree::
 
 	.
@@ -26,9 +28,12 @@ Directory Tree::
 	    └── about.html
 
 
-=====
-TODO:
-=====
-- Serve static file (résumé)
-- Bind CNAME with site and resolve error
+======================
+Ongoing Tasks/Thoughts
+======================
 - Utilize EJS instead of just HTML
+- Fix about.html 404
+- Revamp design a lot
+- Add Javascript animation
+- If Git auto-404s, do I even need one?
+- Am I going about views wrong?
