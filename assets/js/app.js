@@ -20,7 +20,7 @@ $(function () {
 	 */
 	
 	$.backstretch([
-		"files/pose.jpg",
+		"",
 	], {duration: 3800, fade: 1500});
 	
 	
