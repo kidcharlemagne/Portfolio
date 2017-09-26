@@ -20,7 +20,7 @@ $(function () {
 	 */
 	
 	$.backstretch([
-		"",
+		"assets/img/background/gg.jpg",
 	], {duration: 3800, fade: 1500});
 	
 	
