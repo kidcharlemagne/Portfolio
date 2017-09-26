@@ -182,9 +182,9 @@ a:after {
   background: rgba(255, 255, 255, 0.13);
   margin: 0 auto 35px;
 }
-.section-solid-green {
-  background: #386e5b;
-  color: #fff;
+.section-solid {
+  background: #ededed;
+  color: #646464;
 }
 .section-solid h1,
 .section-solid h2,
@@ -197,9 +197,9 @@ a:after {
 .section-solid .section-title-border {
   background: rgba(0, 0, 0, 0.13);
 }
-.section-solid-blue {
-  background: #e2725b;
-  color: #fff;
+.section-solid-white {
+  background: #fff;
+  color: #646464;
 }
 .section-solid-white h1,
 .section-solid-white h2,
@@ -207,7 +207,7 @@ a:after {
 .section-solid-white h4,
 .section-solid-white h5,
 .section-solid-white h6 {
-  color: #fff;
+  color: #646464;
 }
 .section-solid-white .section-title-border {
   background: rgba(0, 0, 0, 0.13);
