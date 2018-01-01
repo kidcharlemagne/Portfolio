@@ -1,35 +1,38 @@
 \documentclass[line,margin]{res}
     \usepackage[none]{hyphenat}
     \usepackage{textcomp}
-    \begin{document}
-\name{{\LARGE Randolph Liang}}
-\address{randy8@vt.edu | (571) 296-6786 | github.com/kidcharlemagne}
-\begin{resume}
+    \usepackage{wrapfig}
+    \usepackage{graphicx}
+    \pdfpagewidth=8.5in 
+    \pdfpageheight=11in
+\begin{document}
+\name{{\LARGE Randolph Y. Liang}} \\ 
+\includegraphics[width=2cm,height=2cm]{images/static_qr_code_without_logo.jpg} \\
+\address{randy8@vt.edu | (571) 296-6786 | github.com/randy8 }
+\begin{resume} 
 	\vspace{-5mm}
 	\section{EDUCATION}
-	\textbf{Virginia Tech}, {\sl B.S. in Computer Science, minor in Mathematics} GPA: 3.14\hfill Dec 2018\\Blacksburg, VA
-	\section{EXPERIENCE}
-	\textbf{Leidos}, {\sl Software Engineer Co-Op Intern}\hfill May 2017 | December 2017\\Reston, VA\\\begin{itemize} \itemsep 1pt
-	\item Learned branching strategies (Git), team-specific conventions, and agile development practices.
-	\item Spearheaded the development of a virtualized network to automatically setup/deploy VM nodes, developed a configuration server in C#, and integrated a multilingual XMPP Android chat client.
-	\item Developed a Python GUI using TKinter that dumps user input into a JSON file and feeds it to Scrapy spiders to obtain OSM map data from online sources.
+	\textbf{Virginia Tech} \hfill Aug 2014 | Dec 2018\\ B.S. in \textbf{Computer Science} | Minor in Mathematics  \\ \textbf{GPA: 3.14} \\
+	\\ Relevant Coursework: Data Structures and Algorithms, Computer Systems, iOS Mobile Software Development, Cryptography (Symmetric)
+	\section{EMPLOYMENT}
+	\textbf{Leidos, Inc.} | {\sl Software Engineer Co-Op Intern} \hfill May 2017 | Dec 2017 
+	\begin{itemize} 
+		\item Learned branching strategies (Git) and team-specific conventions.
+		\item Spearheaded the development of a mis-attributable network  using Vagrant to automatically setup/deploy VM nodes, developed a configuration server in C\#, and integrated a multilingual XMPP Android chat client.
+		\item Developed a Python GUI using TKinter that dumps user input into a JSON file and feeds it to Scrapy spiders to obtain OSM map data from online sources.
 	\end{itemize}
+	\section{PROJECTS}
+	\textbf{Extensible Shell} | {\sl C}\\ Process management for various UNIX commands, job control, and plugin support. Takes line-by-line input from the command line.\\\\
+	\textbf{Memory Manager} | {\sl Java}\\ 
+	Memory management package for storing records of songs/artists from a million-song database that uses a hash table to store handles. Implemented a range query using a 2-3+ tree to retrieve songs written by specific artists.\\\\
+	\textbf{randyliang.com} | {\sl HTML/CSS, JavaScript}\\ Personal website with miscellaneous information such as r\'esum\'e, project, etc.\\\\
+	\textbf{Lyric Bot} | {\sl Python}\\ Twitter bot that scrapes lyrics from the web and tweets them every 30 minutes.\\\\
+	\textbf{Custom Chipotle Order} | {\sl XML, Java}\\ Android application that relies on user input to determine cost and nutrition for a Chipotle order using local prices/tax rates.
 	\section{SKILLS}
 	\begin{tabular}{@{}ll}
-		\textbf{Programming Languages}: & Java, Python, C, Swift   \\
-		\textbf{Operating Systems}:     & GNU/Linux (Debian and RPM), macOS \\
-	\end{tabular}
-	\section{PROJECTS}
-	\textbf{Extensible Shell}, {\sl C}\\ process management for various UNIX commands, job control, and plugin support. Takes line-by-line input from the command line.\\\\
-	\textbf{Memory Manager}, {\sl Java}\\ \href{https://github.com/kidcharlemagne/DSA/tree/master/2-3%2B%20Tree} \\memory management package for storing records consisting of songs/artists from a million-song database, relying on a hash table to store handles that point to the song/artist index in the memory manager. Implements a range query using a 2-3+ tree to retrieve songs written by specific artists.\\\\
-	\textbf{randyliang.com}, {\sl swift, xcode, UIKit}\\ memory management package for storing records consisting of songs/artists from a million-song database, relying on a hash table to store handles that point to the song/artist index in the memory manager. Implements a range query using a 2-3+ tree to retrieve songs written by specific artists.\\\\
-	\textbf{Lyric Bot}, {\sl Python}\\ https://github.com/vinnyoodles/mosaic-layout\\Twitter bot that scrapes lyrics from the web and tweets them every 30 minutes.\\\\
-	\textbf{cartera}, {\sl swift, xcode, UIKit, Parse}\\ https://github.com/makersofawesome/cartera\_ios\\\begin{itemize} \itemsep 1pt
-	\item Developed an iOS app that allows any user to become an ATM for people who need cash in a hurry for VT Hacks Capital One API category. 
-	\item Wrote the networking client wrapper for the Capital One API and the Parse backend using NSURLConnection. 
-	\item Implemented view logic following the MVC paradigm using UIKit and Mapkit.
-	\end{itemize}
-	          
-	\ 
+		\textbf{Proficient:} & Java, Python, Git, GNU/Linux (Ubuntu), macOS            \\
+		\textbf{Familiar:}   & C, C++, Swift, Ruby on Rails, \LaTeX, Eclipse Wireshark \\		
+	\end{tabular} 
+	\vspace{10mm}
 \end{resume}
 \end{document}
