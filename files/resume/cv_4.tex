@@ -1,0 +1,112 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Professional CV
+% LaTeX Template
+% Version 2.0 (8/5/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Trey Hunner (http://www.treyhunner.com/)
+%
+% Important note:
+% This template requires the resume.cls file to be in the same directory as the
+% .tex file. The resume.cls file provides the resume style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass{resume} % Use the custom resume.cls style
+\usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry} % Document margins
+\name{Randolph Liang} % Your name
+\address{randy8@vt.edu $\cdot$ (571) 296-6786 $\cdot$ \url{randyliang.com}}  % Your phone number and email
+
+\begin{document}
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Education}
+\begin{tabular}{r|p{13cm}}
+
+Aug 2014 -- Dec 2018 & Virginia Tech --- Blacksburg, VA\\
+& Bachelor of Science in \textbf{Computer Science} \\
+& Minor in Mathematics \\
+& GPA: \textbf{3.2} \\ 
+\multicolumn{2}{c}{} 
+\end{tabular}
+\end{rSection}
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+\begin{rSection}{Experience}
+\begin{tabular}{r|p{12cm}}
+May 2018 -- Aug 2018 & \textbf{IT Development Intern} --- \textbf{Genworth Financial} --- Richmond, VA \\ 
+	& $\cdot$ Developed a Python/VBA script that organizes and redacts personally identifiable information (PII) from a repository of 100000+ files \\
+	& $\cdot$ Improved the Genworth corporate systems website using LifeRay DXP, abiding to company standards for readability \\
+	& $\cdot$ Implemented Google voice assistant commands using IFTTT as a side project
+\\ \multicolumn{2}{c}{} \\
+%------------------------------------------------
+May 2017 -- Dec 2017 & \textbf{Software Engineer Co-Op Intern} --- \textbf{Leidos} --- Reston, VA \\
+	& $\cdot$ Learned branching strategies (Git) and team-specific conventions \\
+	& $\cdot$ Spearheaded the development of a mis-attributable network using Vagrant to setup/deploy VM nodes, wrote a configuration server in C\#, and integrated a multilingual XMPP Android chat client across the network \\
+	& $\cdot$ Developed a Python GUI using TKinter that feeds a JSON file (of user input) to Scrapy spiders to obtain OSM map data from Google, Yandex, and Baidu \\
+\multicolumn{2}{c}{} 
+\end{tabular}
+
+% \begin{rSubsection}{Genworth Financial}{Richmond, VA}{IT Development Intern}{May 2018 - August 2018}
+% 	\item[--] Developed a Python/VBA script that organizes and redacts personally identifiable information (PII)
+% 	\item[--] Modified corporate systems website using LifeRay using company standards for readability
+% 	\item[--] Independently implemented Google voice assistant commands using IFTTT
+% \end{rSubsection}
+% %------------------------------------------------
+% \begin{rSubsection}{Leidos, Inc.}{Reston, VA}{Software Engineer Co-Op Intern}{May 2017 - December 2017}
+% 	\item[--] Learned branching strategies (Git) and team-specific conventions.
+% 	\item[--] Spearheaded the development of a mis-attributable network using Vagrant to automatically setup/deploy VM nodes, developed a configuration server in C\#, and integrated a multilingual XMPP Android chat client.
+% 	\item[--] Developed a Python GUI using TKinter that dumps user input into a JSON file and feeds it to Scrapy spiders to obtain OSM map data from online sources.
+% \end{rSubsection}
+
+\end{rSection}
+%----------------------------------------------------------------------------------------
+%	PROJECT SECTION
+%----------------------------------------------------------------------------------------
+\begin{rSection}{PROJECTS}
+
+\begin{rSubsection}{Extensible Shell // \sl C}{}{}{} 
+	\item[$\cdot$] Process management for various UNIX commands, job control, and plugin support
+    \item[$\cdot$] Takes line-by-line input from the command line
+\end{rSubsection}
+\begin{rSubsection}{Memory Manager // \sl Java}{}{}{} 
+	\item[$\cdot$] Memory management package for storing records of songs/artists from a million-song database that uses a hash table to store handles
+    \item[$\cdot$] Implemented a range query using a 2-3+ tree to retrieve songs written by specific artists
+\end{rSubsection}  
+\begin{rSubsection}{ randyliang.com \texttt{<!-- \sl HTML/CSS, JavaScript} \texttt{-->}}{}{}{} 
+	\item[$\cdot$] Personal website with miscellaneous information such as r\'esum\'e, projects, etc.
+\end{rSubsection}  
+\begin{rSubsection}{Lyric Bot \# \sl Python}{}{}{}  
+	\item[$\cdot$] Twitter bot that scrapes lyrics from the web and tweets them every 30 minutes
+\end{rSubsection}  
+\begin{rSubsection}{Custom Chipotle Order // \sl Java, XML}{}{}{} 
+	\item[$\cdot$] Android application that relies on user input to determine cost and nutrition for a Chipotle order using local prices/tax rates \\
+\end{rSubsection}  
+
+\end{rSection}
+%----------------------------------------------------------------------------------------
+%	TECHNICAL STRENGTHS SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Skills}
+
+\begin{tabular}{ @{} >{\bfseries}l l }
+Proficient   & Java, Python, VCS (Git, GitHub, GitLab), GNU/Linux, macOS, Vim   \\
+Familiar     & JavaScript (ES6), Ruby/Vagrant, \LaTeX, HTML/CSS, Wireshark, PostgreSQL, Docker \\
+Looking Into & Firebase, Ember.js, MEAN stack, containerization 
+\end{tabular}
+
+\end{rSection}
+
+\end{document}
