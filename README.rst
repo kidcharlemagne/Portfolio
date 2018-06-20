@@ -20,3 +20,8 @@ Ongoing Tasks/Thoughts
 - Update me.jpg 
 - Adjust color scheme
 - Create a medium page for thoughts 
+
+====
+NOTE
+====
+This website will no longer be updated. GH Pages only serves static content, but I'd like to take a stab at other frameworks (will create a new repo). 
